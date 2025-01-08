@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+/* Search.css */
+
+.Search-header {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+    height: 50vh;
+    background-image: url("../Images/7.png");
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .Search1{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  
+  .Heading-22{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Merienda';
+    font-size: 2.74em;
+    color: #dde8d2;
+    text-align: center;
+  }
+  
+  
+  .Select-Field {
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-size: 14px;
+    height: 50px;
+  }
+  .Category-selection,
+  .diet-selection {
+    margin-bottom: 0px;
+    width: 80%;
+    
+  }
+  .Selections{
+    display: flex;
+    padding-left: 25%;
+    justify-content: center; 
+    align-items: center; 
+    width:50%;
+    
+  }
+  .Input-Field{
+    padding: 8px;
+    width: 70%;  
+    box-sizing: border-box;
+    border-radius: 25px 0 0 25px;
+    font-size: 14px;
+    height: 50px;
+    box-shadow: none;
+    margin-bottom: 20px;
+  }
+
+  .Search-button{
+    background-color: #ff7300;
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;   
+    cursor: pointer;
+    font-size: 16px;
+    height: 49px;
+    width: 130px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 20px; 
+  }
+  .Search-card {
+    background-color: #eaeaea; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 15px; 
+    margin-right: 40px;
+    text-align: start;
+  }
+  .Search-card-recipe-name{
+    font-size: 20px;
+  }
+  .Show-more-button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffbf00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+
+  .Search-button:hover,
+  .Show-More-Button:hover {
+    background-color: #ff2600;
+    margin-top: 0px;
+  }
+

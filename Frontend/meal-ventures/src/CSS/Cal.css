@@ -1,0 +1,94 @@
+
+
+.Calender{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.inside{
+    text-align: center;
+}
+.outside{
+    text-align: center;
+    background-color: rgba(57, 108, 3, 0.05) ;
+    padding-bottom: 20px;
+    padding-top: 25px;
+   
+}
+
+    
+.text h1{
+    font-family: merienda;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.rbc-month-view{
+    border-radius: 8px ;
+    border-color: #969696;
+}
+.rbc-header{
+    background-color:  rgba(57, 108, 3, 0.05); 
+}
+.rbc-btn-group{
+    background-color:  rgba(57, 108, 3, 0.05); 
+}
+.rbc-event{
+    background-color:  rgba(57, 108, 3, 0.50);
+}
+/* .rbc-event-content{
+    margin-right: 20%;
+} */
+
+.deletebtn{
+    color: red;
+}
+
+
+
+
+/* .rbc-time-gutter_rbc-time-column{
+    background-color: white;
+    color: white;
+    border: 1px solid white;
+}
+.rbc-time-content{
+    border: 1px solid white;
+} */
+/* these both rbc-time-gutter_rbc-time-column,.rbc-time-content are used to hide the time  */
+
+/* Cal.css */
+
+
+/* Cal.css */
+.btnn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align text to the left and delete button to the right */
+    position: relative;
+    padding-left: 5px; 
+    padding-right: 5px; 
+    padding-top: 0px;
+    padding-bottom: 0PX;
+    order:1;/* Optional padding for better spacing */
+  }
+  
+  .btnn strong { /* Display text first */
+    margin-right: auto; /* Push the text to the left as much as possible */
+  }
+  
+  .delete-button {
+    background: none;
+    cursor: pointer;
+    color: red; /* Customize the color as needed */
+    font-size: 24px; /* Increase the font size for a heavier appearance */
+    margin-top: 0px; /* Adjust the margin for positioning */
+    margin-left: 5px; /* Adjust the margin for spacing */
+    font-weight: bold; /* Make the icon bold */
+    border: none;
+  }
+  
+  .delete-button:hover {
+    text-decoration: underline;
+  }
+  

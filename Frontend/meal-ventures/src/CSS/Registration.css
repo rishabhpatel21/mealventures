@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+
+body {
+  margin: 0;
+
+  
+  align-items: center;
+  justify-content: center;
+}
+.Mid{
+  padding-left: 18%;
+  padding-top: 4%;
+}
+.link-button {
+  text-decoration: none; 
+  color: inherit;
+  cursor: pointer;
+}
+.registration-container {
+  margin-bottom: 65px;
+  overflow: hidden;
+  display: flex;
+  height: 82vh; 
+  width: 65vw; 
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow:  39px 39px 78px #ffdfb7,
+             -39px -39px 78px #d9ffd3;
+}
+
+.video-section {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center; 
+}
+
+.form-section {
+  
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.25);
+  backdrop-filter: blur(10px);
+}
+
+
+.welcome-text {
+  font-family: Merienda;
+  margin: 10px 0px 10px 15px;
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 7%;
+  font-size: 100%;
+}
+
+.registration-form {
+  width: 300px;
+}
+
+
+.form-group {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+.Input-login {
+  width: 20vw;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  background: #f5ffeb;
+  box-shadow: 20px 20px 60px #c5c5c5,-20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+ 
+ .Input-login:focus {
+  outline-color: #e8e8e8;
+  background: #ffffff;
+  box-shadow: inset 20px 20px 60px #ffffff,inset -20px -20px 60px #ffffff;
+  transition: 0.3s;
+ }
+
+
+.password-container {
+  position: relative;
+}
+
+
+.show-password {
+  position: absolute;
+  top: 45%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 17px;
+  color: #555;
+}
+
+
+
+
+.registration-button {
+  width: 22vw;
+  padding: 12px;
+  font-size: 14px;
+  font-family: Poppins;
+  margin-bottom: 10px;
+  margin-left: -2px;
+  border: none;
+  border-radius: 8px; 
+  background: #169402; 
+  backdrop-filter: blur(10px);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  margin-right: 0px;
+  text-decoration: none;
+  color: #333;
+  font-size: 90%;
+}
+
+.separator {
+  margin: 0 5px;
+}

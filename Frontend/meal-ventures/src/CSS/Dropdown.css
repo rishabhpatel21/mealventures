@@ -1,0 +1,38 @@
+.diet-submenu {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(50, 89, 14, 0.6);
+  backdrop-filter: blur( 7px );
+  -webkit-backdrop-filter: blur( 10px );
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  list-style: disc;
+  width: 40vh;
+  height: 50vh;
+  color: whitesmoke;
+  padding-left: 50px;
+  justify-content: center;
+  text-align: start;
+  position: absolute;
+
+}
+.diet-submenu.clicked {
+  visibility: hidden;
+}
+
+.diet-submenu li {
+  padding: 6px;
+  
+  
+}
+
+.diet-submenu li:hover {
+  background-color: rgba(50, 89, 14, 0.801);
+}
+
+.diet-submenu li a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+  
+}

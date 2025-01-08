@@ -1,0 +1,144 @@
+/* RecipeSection.css */
+.recipe-page {
+  margin: 20px;
+}
+.recipe-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0px 30px 0px ;
+  
+  width:auto
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 30px;
+  margin-left: 8px;
+  
+}
+
+.instructionstyle {
+  padding: 5px;
+}
+
+.category,
+.course,
+.diet,
+.servings {
+  display: flex;
+  margin: 0%;
+  top: 5px;
+  margin-right: -100px;
+  padding-bottom: 0%;
+  padding-left: 100px;
+  
+}
+
+
+.category-table {
+  font-family: 'Poppins', sans-serif;
+  border-radius: 20px;
+  background-color: rgba(255, 139, 0, 0.08);
+  width: 100%;
+  z-index: -1;
+  overflow: hidden; 
+  
+  color: #000000;
+  margin: 0%;
+  box-shadow:  0px 0px 12px 1px rgba(255, 139, 0, 0.25)  ,
+              0px 0px 5px 4px rgba(225, 224, 224, 0.491);
+
+
+
+}
+
+
+.time-frame,
+.ingredients-frame{
+  
+  gap: 0px;
+  display: grid;
+  padding: 5px 20px 50px 20px;
+  background: rgba(255, 139, 0, 0.08);
+  border-radius: 20px;
+  box-shadow:  0px 0px 12px 1px rgba(255, 139, 0, 0.25)  ,
+              0px 0px 5px 4px rgba(225, 224, 224, 0.491);
+  
+  /* border-radius: 20px;
+  box-shadow:  0px 0px 20px 2px #2a2929,
+             0px 0px 30px 2px #ffffff; */
+}
+
+.calendar-frame{
+  
+  gap: 0px;
+  display: grid;
+  padding: 5px 20px 50px 20px;
+  background: rgba(255, 139, 0, 0.08);
+  border-radius: 20px;
+  box-shadow:  0px 0px 12px 1px rgba(255, 139, 0, 0.25)  ,
+              0px 0px 5px 4px rgba(225, 224, 224, 0.491);
+  justify-content: center;
+
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+  margin-left: 12%;
+  font-family: 'Poppins', sans-serif;
+  
+  
+}
+table tr td {
+  padding-right:40px ;
+}
+
+.heading-style {
+  font-family: Merienda;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Merienda', cursive;
+  font-weight: bold;
+}
+
+.right-section {
+  width: 70%;
+  height: auto;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 139, 0, 0.08);
+  /* box-shadow:  0px 0px 20px 2px #2a2929,
+             0px 0px 30px 2px #ffffff; */
+  box-shadow:  0px 0px 12px 1px rgba(255, 139, 0, 0.25)  ,
+             0px 0px 5px 4px rgba(225, 224, 224, 0.491);
+  margin-right: 7px;
+  font-size: 24px;
+}
+
+.instructions-frame {
+  margin-bottom: 20px;
+  
+}
+
+.instructions-text {
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+.date-picker{
+  width: 90%;
+  border-radius: 22px;
+  margin-top: -10px;
+  justify-content: center;
+  margin-bottom: 0px;
+  box-shadow: none;
+}
+
+
+

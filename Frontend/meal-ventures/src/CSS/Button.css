@@ -1,0 +1,23 @@
+button {
+    
+    padding: 6px 24px;
+    font-family: Poppins;
+    justify-content: center;
+    align-items:center;
+    margin-left: 10px;
+    border-radius: 32px;
+    border: 2px solid #396C03;
+    font-weight: 600;
+    transition-duration: 0.35s;
+}
+
+button:hover {
+    color: white;
+    background: #396C03;
+    transform: translateY(4px);
+    
+}
+
+.register-buttons {
+    margin-left: 50px;
+}

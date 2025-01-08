@@ -1,0 +1,25 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap");
+.Category-header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    height: 40vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Images/Backgroung-img.jpg'); /* Replace with your image URL */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .selected-category {
+    font-family: Merienda;
+    font-size: 3rem; 
+    font-weight: bold;
+    color: white; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+    
+  }
+  
